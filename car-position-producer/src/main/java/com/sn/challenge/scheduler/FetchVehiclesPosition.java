@@ -4,6 +4,7 @@ import com.sn.challenge.producer.VehicleEventProducer;
 import com.sn.challenge.model.Vehicle;
 import com.sn.challenge.service.VehiclesService;
 import lombok.AllArgsConstructor;
+import lombok.Data;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
@@ -11,7 +12,7 @@ import org.springframework.stereotype.Component;
 /**
  * @author Ehsan Sh
  */
-
+@Data
 @AllArgsConstructor
 @Slf4j
 @Component

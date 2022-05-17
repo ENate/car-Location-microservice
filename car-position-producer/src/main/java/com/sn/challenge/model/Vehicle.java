@@ -11,6 +11,7 @@ import lombok.*;
 @Getter
 @Setter
 @Builder
+@Data
 public class Vehicle {
     public Integer id;
     public int locationId;
